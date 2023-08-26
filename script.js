@@ -95,13 +95,24 @@ function checkWin() {
 
 
 function reset() {
+    
     setTimeout(() => {
-        for (let index = 0; index < userInput.length; index++) {
-            const element = userInput[index];
-            element.textContent = '';
+        if(x===1){
+            alert('You win');
+            x=0;
         }
-        count = 0;
-    }, 1000);
+        else if(o===1){
+            alert('Computer wins');
+            o=0;
+        }
+        setTimeout(() => {
+            for (let index = 0; index < userInput.length; index++) {
+                const element = userInput[index];
+                element.textContent = '';
+            }
+            count = 0;
+        }, 100);
+    }, 1);
     
 }
 
