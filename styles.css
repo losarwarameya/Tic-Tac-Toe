@@ -7,3 +7,24 @@ html, body{
     height: 100%;
     width: 100%;
 }
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    background-color: white;
+    padding: 10px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    margin: 10px 10px;
+    background-color: black;
+}
