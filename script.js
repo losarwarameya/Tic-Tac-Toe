@@ -105,6 +105,9 @@ function reset() {
             alert('Computer wins');
             o=0;
         }
+        else{
+            alert('Draw');
+        }
         setTimeout(() => {
             for (let index = 0; index < userInput.length; index++) {
                 const element = userInput[index];
