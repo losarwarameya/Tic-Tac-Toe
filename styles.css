@@ -27,4 +27,6 @@ body{
     width: 100px;
     margin: 10px 10px;
     background-color: black;
+    color: white;
+    font-size: 50px;
 }
